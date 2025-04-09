@@ -1,0 +1,13 @@
+[package]
+name = "rusty_orbital_dynamics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[lib]
+crate-type = ["cdylib"]  # for Python compatibility
+
+[dependencies]
+pyo3 = { version = "0.20", features = ["extension-module"] }
