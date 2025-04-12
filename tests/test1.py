@@ -69,3 +69,5 @@ plt.plot( lhs , timesteps , label = 'dt over time'  )
 plt.legend()
 plt.grid()
 plt.savefig("test1_timestep_change.png")
+
+print("number of timesteps:",len(timesteps),"smallest timestep:",min(timesteps),"largest timestep",max(timesteps))
