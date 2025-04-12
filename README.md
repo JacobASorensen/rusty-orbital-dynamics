@@ -1,6 +1,13 @@
 # rusty-orbital-dynamics
 my goal is to make an accurate orbital dynamics simulator in rust, callable in python
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
+### Building the library
+
+```
+maturin develop  # for local development
+maturin build    # to build a wheel
+```
 
 ## Milestones
 

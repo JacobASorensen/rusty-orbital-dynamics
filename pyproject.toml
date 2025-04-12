@@ -7,3 +7,4 @@ name = "rusty_orbital_dynamics"
 version = "0.1.0"
 description = "High-performance orbital dynamics in Rust + Python"
 authors = [{name = "Jacob Sorensen", email = "sorensenjacob44@gmail.com"}]
+license = "GPL-3.0-or-later"
