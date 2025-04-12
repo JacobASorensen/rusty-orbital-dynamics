@@ -11,3 +11,6 @@ crate-type = ["cdylib"]  # for Python compatibility
 
 [dependencies]
 pyo3 = { version = "0.20", features = ["extension-module"] }
+
+[package.metadata.maturin]
+name = "rusty_orbital_dynamics"
