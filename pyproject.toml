@@ -6,4 +6,4 @@ build-backend = "maturin"
 name = "rusty_orbital_dynamics"
 version = "0.1.0"
 description = "High-performance orbital dynamics in Rust + Python"
-authors = [{name = "You"}]
+authors = [{name = "Jacob Sorensen", email = "sorensenjacob44@gmail.com"}]
